@@ -1,0 +1,41 @@
+@import url("components/container.css");
+@import url("components/images.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin: 0px;
+  background-color: rgb(240,240,240);
+  }
+
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  font-weight: 800;}
+
+h2{
+  font-family: 'Roboto Slab', serif;
+  font-weight:  600;
+  font-size: 35px;
+  }
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
